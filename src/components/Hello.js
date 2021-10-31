@@ -27,6 +27,20 @@ import React from 'react';
 //     }
 // }
 
+const Hello = () => {
+    return <div className="fr-heading -h1 u-align-center">Hello React</div >;
+};
+
+function Hello() {
+    return <div className="fr-heading -h1 u-align-center">Hello React</div>;
+}
+
+class Hello extends React.Component {
+    render() {
+        <div className="fr-heading -h1 u-align-center">Hello React</div>;
+    }
+}
+
 class Hello extends React.Component {
     render() {
         const hello = <div>hello</div>;
